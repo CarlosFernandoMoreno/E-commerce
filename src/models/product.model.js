@@ -3,11 +3,11 @@ const ProductSchema = new Schema({
     imgUrl: {
       type: String
     },
-    titulo: {
+    title: {
       type: String,
       required: true
     },
-    descripcion: {
+    description: {
       type: String,
       required: true
     },
