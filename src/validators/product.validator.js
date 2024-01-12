@@ -1,5 +1,4 @@
 const { check } = require('express-validator')
-const { validateResult } = require('../helpers/validate.helper.js')
 
 const productValidator = [
    check('title')
