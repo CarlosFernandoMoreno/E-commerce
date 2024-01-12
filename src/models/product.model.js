@@ -1,13 +1,10 @@
 const { Schema, model } = require('mongoose')
 const ProductSchema = new Schema({
-    imgUrl: {
-      type: String
-    },
-    titulo: {
+    title: {
       type: String,
       required: true
     },
-    descripcion: {
+    description: {
       type: String,
       required: true
     },
@@ -15,6 +12,10 @@ const ProductSchema = new Schema({
         type: Number,
         required: true
     },
+    stock: {
+      type: Number,
+      required: true
+  },
   },
   {
     timestamps: true,
